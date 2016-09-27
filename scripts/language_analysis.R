@@ -4,11 +4,11 @@ library(stringr)
 library(tm)
 
 #Path to folder
-filepath <- "~/language-research"
+filepath <- "~/GitHub/language-research"
 
 setwd(paste(filepath, "/tech_list", sep = ""))
 list <-
-  read.csv("lang_list_bigdata.csv",
+  read.csv("lang_list.csv",
            header = TRUE,
            stringsAsFactors = TRUE)
 
